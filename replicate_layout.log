@@ -1,0 +1,616 @@
+02-08 03:57:46 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 392:Plugin executed on: 'win32'
+02-08 03:57:46 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 393:Plugin executed with python version: '3.11.5 (main, Jan 19 2024, 08:13:45) [MSC v.1936 64 bit (AMD64)]'
+02-08 03:57:46 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 394:KiCad build version: 8.0.1
+02-08 03:57:46 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 395:Plugin version: 3.0.3
+02-08 03:57:46 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 396:Frame repr: <wx._core.Frame object at 0x00000220EB2E89D0>
+02-08 03:57:46 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 420:Preparing replicator with J2 as a reference
+02-08 03:57:46 com_github_MitjaNemec_ReplicateLayout.replicate_layout 117:getting a list of all footprints on board
+02-08 03:57:46 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 468:source anchor footprint is 'J2'
+Located on: ['Loop1']
+With filenames: ['loop_single.kicad_sch']
+With sheet_id:['Loop1']
+02-08 03:57:46 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 475:Corresponding footprints are 
+[('J8', ['Loop4']), ('J4', ['Loop2']), ('J6', ['Loop3']), ('J10', ['Loop5']), ('J12', ['Loop6']), ('J2', ['Loop1'])]
+02-08 03:57:46 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 487:Showing dialog
+02-08 03:57:46 com_github_MitjaNemec_ReplicateLayout.replicate_layout 472:constructing a list of sheets suitable for replication on level:'Loop1', file:'loop_single.kicad_sch'
+02-08 03:57:46 com_github_MitjaNemec_ReplicateLayout.replicate_layout 509:suitable sheets are:[['Loop2'], ['Loop3'], ['Loop4'], ['Loop5'], ['Loop6']]
+02-08 03:57:46 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1507:Level selected: ['Loop1']
+02-08 03:57:46 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1331:Filtering list of tracks
+02-08 03:57:46 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 493:Toolbar position: wx.Point(2845, 85)
+02-08 03:57:46 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 498:Dialog position: wx.Point(2406, 85)
+02-08 03:58:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 472:constructing a list of sheets suitable for replication on level:'Loop1', file:'loop_single.kicad_sch'
+02-08 03:58:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 509:suitable sheets are:[['Loop2'], ['Loop3'], ['Loop4'], ['Loop5'], ['Loop6']]
+02-08 03:58:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1507:Level selected: ['Loop1']
+02-08 03:58:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1331:Filtering list of tracks
+02-08 03:58:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop6'], src group:
+02-08 03:58:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop6'], src group:
+02-08 03:58:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop6'], src group:
+02-08 03:58:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop6'], src group:
+02-08 03:58:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop6'], src group:
+02-08 03:58:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop6'], src group:
+02-08 03:58:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop6'], src group:
+02-08 03:58:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop6'], src group:
+02-08 03:58:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop6'], src group:
+02-08 03:58:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop6'], src group:
+02-08 03:58:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop6'], src group:
+02-08 03:58:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop6'], src group:
+02-08 03:58:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop6'], src group:
+02-08 03:58:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop6'], src group:
+02-08 03:58:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop6'], src group:
+02-08 03:58:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop6'], src group:
+02-08 03:58:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop6'], src group:
+02-08 03:58:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop6'], src group:
+02-08 03:58:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop6'], src group:
+02-08 03:58:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop6'], src group:
+02-08 03:58:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop6'], src group:
+02-08 03:58:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop6'], src group:
+02-08 03:58:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop6'], src group:
+02-08 03:58:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop6'], src group:
+02-08 03:58:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop6'], src group:
+02-08 03:58:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop6'], src group:
+02-08 03:58:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop6'], src group:
+02-08 03:58:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop6'], src group:
+02-08 03:58:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop6'], src group:
+02-08 03:58:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop6'], src group:
+02-08 03:58:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop6'], src group:
+02-08 03:58:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop6'], src group:
+02-08 03:58:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop6'], src group:
+02-08 03:58:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop6'], src group:
+02-08 03:58:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop6'], src group:
+02-08 03:58:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop6'], src group:
+02-08 03:58:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop6'], src group:
+02-08 03:58:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop6'], src group:
+02-08 03:58:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop6'], src group:
+02-08 03:58:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop6'], src group:
+02-08 03:58:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop6'], src group:
+02-08 03:58:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop6'], src group:
+02-08 03:58:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop6'], src group:
+02-08 03:58:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop6'], src group:
+02-08 03:58:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop6'], src group:
+02-08 03:58:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop6'], src group:
+02-08 03:58:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop6'], src group:
+02-08 03:58:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop6'], src group:
+02-08 03:58:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop5'], src group:
+02-08 03:58:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop5'], src group:
+02-08 03:58:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop5'], src group:
+02-08 03:58:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop5'], src group:
+02-08 03:58:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop5'], src group:
+02-08 03:58:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop5'], src group:
+02-08 03:58:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop5'], src group:
+02-08 03:58:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop5'], src group:
+02-08 03:58:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop5'], src group:
+02-08 03:58:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop5'], src group:
+02-08 03:58:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop5'], src group:
+02-08 03:58:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop5'], src group:
+02-08 03:58:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop5'], src group:
+02-08 03:58:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop5'], src group:
+02-08 03:58:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop5'], src group:
+02-08 03:58:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop5'], src group:
+02-08 03:58:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop5'], src group:
+02-08 03:58:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop5'], src group:
+02-08 03:58:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop5'], src group:
+02-08 03:58:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop5'], src group:
+02-08 03:58:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop5'], src group:
+02-08 03:58:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop5'], src group:
+02-08 03:58:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop5'], src group:
+02-08 03:58:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop5'], src group:
+02-08 03:58:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop5'], src group:
+02-08 03:58:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop5'], src group:
+02-08 03:58:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop5'], src group:
+02-08 03:58:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop5'], src group:
+02-08 03:58:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop5'], src group:
+02-08 03:58:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop5'], src group:
+02-08 03:58:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop5'], src group:
+02-08 03:58:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop5'], src group:
+02-08 03:58:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop5'], src group:
+02-08 03:58:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop5'], src group:
+02-08 03:58:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop5'], src group:
+02-08 03:58:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop5'], src group:
+02-08 03:58:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop5'], src group:
+02-08 03:58:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop5'], src group:
+02-08 03:58:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop5'], src group:
+02-08 03:58:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop5'], src group:
+02-08 03:58:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop5'], src group:
+02-08 03:58:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop5'], src group:
+02-08 03:58:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop5'], src group:
+02-08 03:58:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop5'], src group:
+02-08 03:58:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop5'], src group:
+02-08 03:58:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop5'], src group:
+02-08 03:58:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop5'], src group:
+02-08 03:58:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop5'], src group:
+02-08 03:58:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop4'], src group:
+02-08 03:58:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop4'], src group:
+02-08 03:58:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop4'], src group:
+02-08 03:58:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop4'], src group:
+02-08 03:58:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop4'], src group:
+02-08 03:58:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop4'], src group:
+02-08 03:58:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop4'], src group:
+02-08 03:58:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop4'], src group:
+02-08 03:58:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop4'], src group:
+02-08 03:58:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop4'], src group:
+02-08 03:58:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop4'], src group:
+02-08 03:58:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop4'], src group:
+02-08 03:58:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop4'], src group:
+02-08 03:58:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop4'], src group:
+02-08 03:58:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop4'], src group:
+02-08 03:58:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop4'], src group:
+02-08 03:58:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop4'], src group:
+02-08 03:58:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop4'], src group:
+02-08 03:58:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop4'], src group:
+02-08 03:58:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop4'], src group:
+02-08 03:58:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop4'], src group:
+02-08 03:58:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop4'], src group:
+02-08 03:58:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop4'], src group:
+02-08 03:58:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop4'], src group:
+02-08 03:58:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop4'], src group:
+02-08 03:58:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop4'], src group:
+02-08 03:58:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop4'], src group:
+02-08 03:58:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop4'], src group:
+02-08 03:58:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop4'], src group:
+02-08 03:58:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop4'], src group:
+02-08 03:58:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop4'], src group:
+02-08 03:58:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop4'], src group:
+02-08 03:58:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop4'], src group:
+02-08 03:58:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop4'], src group:
+02-08 03:58:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop4'], src group:
+02-08 03:58:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop4'], src group:
+02-08 03:58:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop4'], src group:
+02-08 03:58:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop4'], src group:
+02-08 03:58:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop4'], src group:
+02-08 03:58:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop4'], src group:
+02-08 03:58:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop4'], src group:
+02-08 03:58:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop4'], src group:
+02-08 03:58:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop4'], src group:
+02-08 03:58:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop4'], src group:
+02-08 03:58:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop4'], src group:
+02-08 03:58:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop4'], src group:
+02-08 03:58:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop4'], src group:
+02-08 03:58:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop4'], src group:
+02-08 03:58:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop3'], src group:
+02-08 03:58:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop3'], src group:
+02-08 03:58:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop3'], src group:
+02-08 03:58:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop3'], src group:
+02-08 03:58:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop3'], src group:
+02-08 03:58:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop3'], src group:
+02-08 03:58:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop3'], src group:
+02-08 03:58:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop3'], src group:
+02-08 03:58:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop3'], src group:
+02-08 03:58:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop3'], src group:
+02-08 03:58:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop3'], src group:
+02-08 03:58:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop3'], src group:
+02-08 03:58:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop3'], src group:
+02-08 03:58:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop3'], src group:
+02-08 03:58:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop3'], src group:
+02-08 03:58:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop3'], src group:
+02-08 03:58:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop3'], src group:
+02-08 03:58:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop3'], src group:
+02-08 03:58:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop3'], src group:
+02-08 03:58:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop3'], src group:
+02-08 03:58:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop3'], src group:
+02-08 03:58:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop3'], src group:
+02-08 03:58:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop3'], src group:
+02-08 03:58:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop3'], src group:
+02-08 03:58:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop3'], src group:
+02-08 03:58:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop3'], src group:
+02-08 03:58:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop3'], src group:
+02-08 03:58:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop3'], src group:
+02-08 03:58:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop3'], src group:
+02-08 03:58:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop3'], src group:
+02-08 03:58:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop3'], src group:
+02-08 03:58:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop3'], src group:
+02-08 03:58:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop3'], src group:
+02-08 03:58:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop3'], src group:
+02-08 03:58:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop3'], src group:
+02-08 03:58:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop3'], src group:
+02-08 03:58:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop3'], src group:
+02-08 03:58:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop3'], src group:
+02-08 03:58:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop3'], src group:
+02-08 03:58:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop3'], src group:
+02-08 03:58:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop3'], src group:
+02-08 03:58:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop3'], src group:
+02-08 03:58:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop3'], src group:
+02-08 03:58:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop3'], src group:
+02-08 03:58:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop3'], src group:
+02-08 03:58:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop3'], src group:
+02-08 03:58:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop3'], src group:
+02-08 03:58:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop3'], src group:
+02-08 03:58:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop2'], src group:
+02-08 03:58:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop2'], src group:
+02-08 03:58:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop2'], src group:
+02-08 03:58:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop2'], src group:
+02-08 03:58:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop2'], src group:
+02-08 03:58:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop2'], src group:
+02-08 03:58:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop2'], src group:
+02-08 03:58:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop2'], src group:
+02-08 03:58:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop2'], src group:
+02-08 03:58:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop2'], src group:
+02-08 03:58:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop2'], src group:
+02-08 03:58:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop2'], src group:
+02-08 03:58:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop2'], src group:
+02-08 03:58:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop2'], src group:
+02-08 03:58:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop2'], src group:
+02-08 03:58:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop2'], src group:
+02-08 03:58:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop2'], src group:
+02-08 03:58:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop2'], src group:
+02-08 03:58:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop2'], src group:
+02-08 03:58:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop2'], src group:
+02-08 03:58:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop2'], src group:
+02-08 03:58:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop2'], src group:
+02-08 03:58:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop2'], src group:
+02-08 03:58:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop2'], src group:
+02-08 03:58:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop2'], src group:
+02-08 03:58:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop2'], src group:
+02-08 03:58:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop2'], src group:
+02-08 03:58:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop2'], src group:
+02-08 03:58:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop2'], src group:
+02-08 03:58:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop2'], src group:
+02-08 03:58:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop2'], src group:
+02-08 03:58:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop2'], src group:
+02-08 03:58:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop2'], src group:
+02-08 03:58:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop2'], src group:
+02-08 03:58:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop2'], src group:
+02-08 03:58:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop2'], src group:
+02-08 03:58:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop2'], src group:
+02-08 03:58:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop2'], src group:
+02-08 03:58:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop2'], src group:
+02-08 03:58:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop2'], src group:
+02-08 03:58:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop2'], src group:
+02-08 03:58:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop2'], src group:
+02-08 03:58:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop2'], src group:
+02-08 03:58:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop2'], src group:
+02-08 03:58:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop2'], src group:
+02-08 03:58:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop2'], src group:
+02-08 03:58:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop2'], src group:
+02-08 03:58:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop2'], src group:
+02-08 03:58:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: , src group:
+02-08 03:58:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: , src group:
+02-08 03:58:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: , src group:
+02-08 03:58:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: , src group:
+02-08 03:58:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: , src group:
+02-08 03:58:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: , src group:
+02-08 03:58:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: , src group:
+02-08 03:58:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: , src group:
+02-08 03:58:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: , src group:
+02-08 03:58:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: , src group:
+02-08 03:58:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: , src group:
+02-08 03:58:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: , src group:
+02-08 03:58:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: , src group:
+02-08 03:58:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: , src group:
+02-08 03:58:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: , src group:
+02-08 03:58:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: , src group:
+02-08 03:58:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: , src group:
+02-08 03:58:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: , src group:
+02-08 03:58:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: , src group:
+02-08 03:58:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: , src group:
+02-08 03:58:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: , src group:
+02-08 03:58:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: , src group:
+02-08 03:58:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: , src group:
+02-08 03:58:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: , src group:
+02-08 03:58:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: , src group:
+02-08 03:58:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: , src group:
+02-08 03:58:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: , src group:
+02-08 03:58:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: , src group:
+02-08 03:58:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: , src group:
+02-08 03:58:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: , src group:
+02-08 03:58:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: , src group:
+02-08 03:58:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: , src group:
+02-08 03:58:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: , src group:
+02-08 03:58:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: , src group:
+02-08 03:58:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: , src group:
+02-08 03:58:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: , src group:
+02-08 03:58:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: , src group:
+02-08 03:58:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: , src group:
+02-08 03:58:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: , src group:
+02-08 03:58:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: , src group:
+02-08 03:58:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: , src group:
+02-08 03:58:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: , src group:
+02-08 03:58:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: , src group:
+02-08 03:58:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: , src group:
+02-08 03:58:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: , src group:
+02-08 03:58:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: , src group:
+02-08 03:58:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: , src group:
+02-08 03:58:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: , src group:
+02-08 03:58:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 472:constructing a list of sheets suitable for replication on level:'Loop1', file:'loop_single.kicad_sch'
+02-08 03:58:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 509:suitable sheets are:[['Loop2'], ['Loop3'], ['Loop4'], ['Loop5'], ['Loop6']]
+02-08 03:58:26 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 240:Replicating layout
+02-08 03:58:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 288:Starting replication of sheets: [['Loop2'], ['Loop3'], ['Loop4'], ['Loop5'], ['Loop6']]
+on level: ['Loop1']
+with tracks=True, zone=True, text=True, text=True, intersecting=False, remove=True, locked footprints=False, group_only=True
+02-08 03:58:26 root 332:updating GUI message: 'Preparing for replication'
+02-08 03:58:26 root 337:updating GUI with: 0
+02-08 03:58:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 358:Getting the list of source footprints
+02-08 03:58:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 368:Getting the list of all the remaining footprints
+02-08 03:58:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 375:Getting source tracks
+02-08 03:58:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1331:Filtering list of tracks
+02-08 03:58:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop6'], src group:
+02-08 03:58:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop6'], src group:
+02-08 03:58:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop6'], src group:
+02-08 03:58:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop6'], src group:
+02-08 03:58:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop6'], src group:
+02-08 03:58:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop6'], src group:
+02-08 03:58:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop6'], src group:
+02-08 03:58:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop6'], src group:
+02-08 03:58:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop6'], src group:
+02-08 03:58:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop6'], src group:
+02-08 03:58:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop6'], src group:
+02-08 03:58:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop6'], src group:
+02-08 03:58:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop6'], src group:
+02-08 03:58:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop6'], src group:
+02-08 03:58:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop6'], src group:
+02-08 03:58:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop6'], src group:
+02-08 03:58:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop6'], src group:
+02-08 03:58:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop6'], src group:
+02-08 03:58:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop6'], src group:
+02-08 03:58:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop6'], src group:
+02-08 03:58:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop6'], src group:
+02-08 03:58:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop6'], src group:
+02-08 03:58:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop6'], src group:
+02-08 03:58:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop6'], src group:
+02-08 03:58:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop6'], src group:
+02-08 03:58:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop6'], src group:
+02-08 03:58:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop6'], src group:
+02-08 03:58:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop6'], src group:
+02-08 03:58:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop6'], src group:
+02-08 03:58:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop6'], src group:
+02-08 03:58:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop6'], src group:
+02-08 03:58:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop6'], src group:
+02-08 03:58:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop6'], src group:
+02-08 03:58:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop6'], src group:
+02-08 03:58:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop6'], src group:
+02-08 03:58:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop6'], src group:
+02-08 03:58:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop6'], src group:
+02-08 03:58:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop6'], src group:
+02-08 03:58:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop6'], src group:
+02-08 03:58:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop6'], src group:
+02-08 03:58:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop6'], src group:
+02-08 03:58:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop6'], src group:
+02-08 03:58:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop6'], src group:
+02-08 03:58:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop6'], src group:
+02-08 03:58:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop6'], src group:
+02-08 03:58:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop6'], src group:
+02-08 03:58:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop6'], src group:
+02-08 03:58:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop6'], src group:
+02-08 03:58:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop5'], src group:
+02-08 03:58:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop5'], src group:
+02-08 03:58:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop5'], src group:
+02-08 03:58:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop5'], src group:
+02-08 03:58:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop5'], src group:
+02-08 03:58:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop5'], src group:
+02-08 03:58:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop5'], src group:
+02-08 03:58:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop5'], src group:
+02-08 03:58:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop5'], src group:
+02-08 03:58:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop5'], src group:
+02-08 03:58:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop5'], src group:
+02-08 03:58:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop5'], src group:
+02-08 03:58:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop5'], src group:
+02-08 03:58:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop5'], src group:
+02-08 03:58:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop5'], src group:
+02-08 03:58:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop5'], src group:
+02-08 03:58:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop5'], src group:
+02-08 03:58:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop5'], src group:
+02-08 03:58:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop5'], src group:
+02-08 03:58:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop5'], src group:
+02-08 03:58:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop5'], src group:
+02-08 03:58:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop5'], src group:
+02-08 03:58:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop5'], src group:
+02-08 03:58:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop5'], src group:
+02-08 03:58:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop5'], src group:
+02-08 03:58:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop5'], src group:
+02-08 03:58:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop5'], src group:
+02-08 03:58:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop5'], src group:
+02-08 03:58:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop5'], src group:
+02-08 03:58:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop5'], src group:
+02-08 03:58:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop5'], src group:
+02-08 03:58:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop5'], src group:
+02-08 03:58:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop5'], src group:
+02-08 03:58:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop5'], src group:
+02-08 03:58:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop5'], src group:
+02-08 03:58:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop5'], src group:
+02-08 03:58:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop5'], src group:
+02-08 03:58:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop5'], src group:
+02-08 03:58:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop5'], src group:
+02-08 03:58:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop5'], src group:
+02-08 03:58:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop5'], src group:
+02-08 03:58:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop5'], src group:
+02-08 03:58:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop5'], src group:
+02-08 03:58:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop5'], src group:
+02-08 03:58:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop5'], src group:
+02-08 03:58:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop5'], src group:
+02-08 03:58:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop5'], src group:
+02-08 03:58:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop5'], src group:
+02-08 03:58:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop4'], src group:
+02-08 03:58:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop4'], src group:
+02-08 03:58:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop4'], src group:
+02-08 03:58:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop4'], src group:
+02-08 03:58:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop4'], src group:
+02-08 03:58:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop4'], src group:
+02-08 03:58:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop4'], src group:
+02-08 03:58:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop4'], src group:
+02-08 03:58:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop4'], src group:
+02-08 03:58:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop4'], src group:
+02-08 03:58:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop4'], src group:
+02-08 03:58:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop4'], src group:
+02-08 03:58:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop4'], src group:
+02-08 03:58:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop4'], src group:
+02-08 03:58:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop4'], src group:
+02-08 03:58:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop4'], src group:
+02-08 03:58:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop4'], src group:
+02-08 03:58:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop4'], src group:
+02-08 03:58:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop4'], src group:
+02-08 03:58:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop4'], src group:
+02-08 03:58:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop4'], src group:
+02-08 03:58:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop4'], src group:
+02-08 03:58:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop4'], src group:
+02-08 03:58:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop4'], src group:
+02-08 03:58:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop4'], src group:
+02-08 03:58:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop4'], src group:
+02-08 03:58:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop4'], src group:
+02-08 03:58:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop4'], src group:
+02-08 03:58:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop4'], src group:
+02-08 03:58:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop4'], src group:
+02-08 03:58:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop4'], src group:
+02-08 03:58:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop4'], src group:
+02-08 03:58:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop4'], src group:
+02-08 03:58:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop4'], src group:
+02-08 03:58:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop4'], src group:
+02-08 03:58:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop4'], src group:
+02-08 03:58:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop4'], src group:
+02-08 03:58:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop4'], src group:
+02-08 03:58:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop4'], src group:
+02-08 03:58:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop4'], src group:
+02-08 03:58:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop4'], src group:
+02-08 03:58:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop4'], src group:
+02-08 03:58:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop4'], src group:
+02-08 03:58:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop4'], src group:
+02-08 03:58:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop4'], src group:
+02-08 03:58:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop4'], src group:
+02-08 03:58:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop4'], src group:
+02-08 03:58:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop4'], src group:
+02-08 03:58:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop3'], src group:
+02-08 03:58:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop3'], src group:
+02-08 03:58:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop3'], src group:
+02-08 03:58:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop3'], src group:
+02-08 03:58:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop3'], src group:
+02-08 03:58:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop3'], src group:
+02-08 03:58:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop3'], src group:
+02-08 03:58:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop3'], src group:
+02-08 03:58:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop3'], src group:
+02-08 03:58:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop3'], src group:
+02-08 03:58:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop3'], src group:
+02-08 03:58:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop3'], src group:
+02-08 03:58:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop3'], src group:
+02-08 03:58:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop3'], src group:
+02-08 03:58:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop3'], src group:
+02-08 03:58:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop3'], src group:
+02-08 03:58:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop3'], src group:
+02-08 03:58:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop3'], src group:
+02-08 03:58:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop3'], src group:
+02-08 03:58:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop3'], src group:
+02-08 03:58:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop3'], src group:
+02-08 03:58:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop3'], src group:
+02-08 03:58:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop3'], src group:
+02-08 03:58:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop3'], src group:
+02-08 03:58:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop3'], src group:
+02-08 03:58:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop3'], src group:
+02-08 03:58:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop3'], src group:
+02-08 03:58:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop3'], src group:
+02-08 03:58:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop3'], src group:
+02-08 03:58:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop3'], src group:
+02-08 03:58:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop3'], src group:
+02-08 03:58:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop3'], src group:
+02-08 03:58:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop3'], src group:
+02-08 03:58:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop3'], src group:
+02-08 03:58:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop3'], src group:
+02-08 03:58:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop3'], src group:
+02-08 03:58:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop3'], src group:
+02-08 03:58:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop3'], src group:
+02-08 03:58:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop3'], src group:
+02-08 03:58:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop3'], src group:
+02-08 03:58:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop3'], src group:
+02-08 03:58:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop3'], src group:
+02-08 03:58:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop3'], src group:
+02-08 03:58:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop3'], src group:
+02-08 03:58:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop3'], src group:
+02-08 03:58:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop3'], src group:
+02-08 03:58:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop3'], src group:
+02-08 03:58:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop3'], src group:
+02-08 03:58:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop2'], src group:
+02-08 03:58:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop2'], src group:
+02-08 03:58:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop2'], src group:
+02-08 03:58:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop2'], src group:
+02-08 03:58:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop2'], src group:
+02-08 03:58:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop2'], src group:
+02-08 03:58:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop2'], src group:
+02-08 03:58:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop2'], src group:
+02-08 03:58:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop2'], src group:
+02-08 03:58:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop2'], src group:
+02-08 03:58:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop2'], src group:
+02-08 03:58:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop2'], src group:
+02-08 03:58:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop2'], src group:
+02-08 03:58:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop2'], src group:
+02-08 03:58:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop2'], src group:
+02-08 03:58:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop2'], src group:
+02-08 03:58:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop2'], src group:
+02-08 03:58:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop2'], src group:
+02-08 03:58:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop2'], src group:
+02-08 03:58:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop2'], src group:
+02-08 03:58:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop2'], src group:
+02-08 03:58:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop2'], src group:
+02-08 03:58:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop2'], src group:
+02-08 03:58:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop2'], src group:
+02-08 03:58:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop2'], src group:
+02-08 03:58:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop2'], src group:
+02-08 03:58:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop2'], src group:
+02-08 03:58:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop2'], src group:
+02-08 03:58:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop2'], src group:
+02-08 03:58:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop2'], src group:
+02-08 03:58:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop2'], src group:
+02-08 03:58:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop2'], src group:
+02-08 03:58:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop2'], src group:
+02-08 03:58:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop2'], src group:
+02-08 03:58:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop2'], src group:
+02-08 03:58:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop2'], src group:
+02-08 03:58:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop2'], src group:
+02-08 03:58:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop2'], src group:
+02-08 03:58:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop2'], src group:
+02-08 03:58:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop2'], src group:
+02-08 03:58:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop2'], src group:
+02-08 03:58:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop2'], src group:
+02-08 03:58:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop2'], src group:
+02-08 03:58:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop2'], src group:
+02-08 03:58:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop2'], src group:
+02-08 03:58:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop2'], src group:
+02-08 03:58:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop2'], src group:
+02-08 03:58:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: Replicated Group ['Loop2'], src group:
+02-08 03:58:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: , src group:
+02-08 03:58:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: , src group:
+02-08 03:58:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: , src group:
+02-08 03:58:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: , src group:
+02-08 03:58:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: , src group:
+02-08 03:58:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: , src group:
+02-08 03:58:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: , src group:
+02-08 03:58:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: , src group:
+02-08 03:58:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: , src group:
+02-08 03:58:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: , src group:
+02-08 03:58:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: , src group:
+02-08 03:58:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: , src group:
+02-08 03:58:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: , src group:
+02-08 03:58:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: , src group:
+02-08 03:58:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: , src group:
+02-08 03:58:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: , src group:
+02-08 03:58:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: , src group:
+02-08 03:58:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: , src group:
+02-08 03:58:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: , src group:
+02-08 03:58:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: , src group:
+02-08 03:58:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: , src group:
+02-08 03:58:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: , src group:
+02-08 03:58:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: , src group:
+02-08 03:58:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: , src group:
+02-08 03:58:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: , src group:
+02-08 03:58:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: , src group:
+02-08 03:58:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: , src group:
+02-08 03:58:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: , src group:
+02-08 03:58:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: , src group:
+02-08 03:58:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: , src group:
+02-08 03:58:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: , src group:
+02-08 03:58:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: , src group:
+02-08 03:58:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: , src group:
+02-08 03:58:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: , src group:
+02-08 03:58:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: , src group:
+02-08 03:58:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: , src group:
+02-08 03:58:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: , src group:
+02-08 03:58:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: , src group:
+02-08 03:58:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: , src group:
+02-08 03:58:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: , src group:
+02-08 03:58:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: , src group:
+02-08 03:58:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: , src group:
+02-08 03:58:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: , src group:
+02-08 03:58:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: , src group:
+02-08 03:58:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: , src group:
+02-08 03:58:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: , src group:
+02-08 03:58:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: , src group:
+02-08 03:58:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1337:Track group: , src group:
+02-08 03:58:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 379:Getting source zones
+02-08 03:58:26 root 337:updating GUI with: 50
+02-08 03:58:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 383:Getting source text items
+02-08 03:58:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 387:Getting source drawing items
