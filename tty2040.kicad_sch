@@ -2674,6 +2674,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C2286"
+			(at 150.876 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "6f22571a-2f02-4dee-9ace-45c7a65e9efa")
 		)
@@ -3131,6 +3140,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C728827"
+			(at 163.83 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "0e991a75-a625-43a8-a751-583d89a5e7ef")
 		)
@@ -3207,6 +3225,15 @@
 		)
 		(property "LCSC Part" "C728827"
 			(at 144.78 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C728827"
+			(at 163.83 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3361,6 +3388,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C2286"
+			(at 150.876 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "6e797ef0-6e69-4c83-93f4-10ac0226551e")
 		)
@@ -3438,6 +3474,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C2286"
+			(at 150.876 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "eb9be250-79c0-4f4f-b119-92d1a6e58276")
 		)
@@ -3508,6 +3553,15 @@
 		)
 		(property "LCSC Part" "C2286"
 			(at 147.32 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2286"
+			(at 150.876 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3656,6 +3710,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C2286"
+			(at 150.876 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "879845dc-aa6e-4e16-8cc9-bcfc379829f5")
 		)
@@ -3726,6 +3789,15 @@
 		)
 		(property "LCSC Part" "C2286"
 			(at 147.32 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2286"
+			(at 150.876 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3933,6 +4005,15 @@
 		)
 		(property "LCSC Part" "C728827"
 			(at 144.78 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C728827"
+			(at 163.83 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
