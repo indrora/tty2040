@@ -5,6 +5,128 @@
 	(uuid "abc27069-2ab3-4540-8984-2696f3591d8b")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Device:R_Small"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.254) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 0.762 0.508 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "R_Small"
+				(at 0.762 -1.016 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor, small symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_Small_0_1"
+				(rectangle
+					(start -0.762 1.778)
+					(end 0.762 -1.778)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_Small_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 0.762)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 0.762)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "MCU_Module_RaspberryPi_Pico:RaspberryPi_Pico"
 			(pin_names
 				(offset 0.762)
@@ -1345,281 +1467,6 @@
 				)
 			)
 		)
-		(symbol "local:YC162-FR-072K4L"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at 0 13.97 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "YC162-FR-072K4L"
-				(at 0 -13.97 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "local:RES-ARRAY-SMD_0603-4P-L1.6-W1.6-BL"
-				(at 0 -16.51 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "LCSC Part" "C728827"
-				(at 0 -19.05 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "YC162-FR-072K4L_0_1"
-				(polyline
-					(pts
-						(xy -5.08 -3.81) (xy -5.08 3.81)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -5.08 -3.81) (xy 2.54 -3.81)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -5.08 3.81) (xy 2.54 3.81)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.05 -2.29) (xy -3.05 2.29)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 -3.81) (xy -2.54 -2.29)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 2.29) (xy -2.54 3.81)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.51 -2.29) (xy -0.51 2.29)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -3.81) (xy 0 -2.29)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.29) (xy 0 3.81)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -3.81) (xy 2.54 3.81)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.05 -2.29) (xy -2.03 -2.29) (xy -2.03 2.29) (xy -3.05 2.29)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.51 -2.29) (xy 0.51 -2.29) (xy 0.51 2.29) (xy -0.51 2.29)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin input line
-					(at -2.54 -8.89 90)
-					(length 5.08)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 0 -8.89 90)
-					(length 5.08)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 0 8.89 270)
-					(length 5.08)
-					(name "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -2.54 8.89 270)
-					(length 5.08)
-					(name "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers hide)
@@ -1889,16 +1736,6 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 55.88) (xy 153.67 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0bd689e2-50c6-4861-b727-ac60e2865004")
-	)
-	(wire
-		(pts
 			(xy 138.43 33.02) (xy 142.24 33.02)
 		)
 		(stroke
@@ -1919,7 +1756,7 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 39.37) (xy 152.4 39.37)
+			(xy 152.4 39.37) (xy 154.94 39.37)
 		)
 		(stroke
 			(width 0)
@@ -1939,16 +1776,6 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 30.48) (xy 153.67 30.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "19e713a6-9343-4721-99fe-7d5d1f60478a")
-	)
-	(wire
-		(pts
 			(xy 66.04 87.63) (xy 76.2 87.63)
 		)
 		(stroke
@@ -1959,7 +1786,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 44.45) (xy 185.42 44.45)
+			(xy 160.02 46.99) (xy 172.72 46.99)
 		)
 		(stroke
 			(width 0)
@@ -1969,43 +1796,13 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 30.48) (xy 153.67 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "35fb5c24-a715-4e49-bb8f-7a28a4134165")
-	)
-	(wire
-		(pts
-			(xy 153.67 58.42) (xy 153.67 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4129efcc-33db-499e-8f61-6026c7e1f145")
-	)
-	(wire
-		(pts
-			(xy 172.72 30.48) (xy 185.42 30.48)
+			(xy 160.02 33.02) (xy 172.72 33.02)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "46bc40b5-f28c-493f-a320-05929880609c")
-	)
-	(wire
-		(pts
-			(xy 154.94 41.91) (xy 153.67 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "51719cbd-94a9-4974-907e-b83eafd2e094")
 	)
 	(wire
 		(pts
@@ -2039,23 +1836,13 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 55.88) (xy 185.42 55.88)
+			(xy 160.02 53.34) (xy 172.72 53.34)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "5f16c152-b41f-4f2f-9855-4a320e1b222b")
-	)
-	(wire
-		(pts
-			(xy 154.94 58.42) (xy 153.67 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "640b3b0b-85fd-41b7-9097-f67fd4ff0f84")
 	)
 	(wire
 		(pts
@@ -2069,7 +1856,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 27.94) (xy 185.42 27.94)
+			(xy 160.02 25.4) (xy 172.72 25.4)
 		)
 		(stroke
 			(width 0)
@@ -2099,16 +1886,6 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 44.45) (xy 153.67 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7a17a174-e693-4a44-be52-d452af2e1f1f")
-	)
-	(wire
-		(pts
 			(xy 138.43 53.34) (xy 142.24 53.34)
 		)
 		(stroke
@@ -2119,7 +1896,7 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 53.34) (xy 152.4 53.34)
+			(xy 152.4 53.34) (xy 154.94 53.34)
 		)
 		(stroke
 			(width 0)
@@ -2139,7 +1916,7 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 33.02) (xy 152.4 33.02)
+			(xy 152.4 33.02) (xy 154.94 33.02)
 		)
 		(stroke
 			(width 0)
@@ -2159,16 +1936,6 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 27.94) (xy 153.67 27.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "911ef249-98cc-4c29-af93-09c0269a8426")
-	)
-	(wire
-		(pts
 			(xy 138.43 60.96) (xy 138.43 66.04)
 		)
 		(stroke
@@ -2179,7 +1946,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 58.42) (xy 185.42 58.42)
+			(xy 160.02 60.96) (xy 172.72 60.96)
 		)
 		(stroke
 			(width 0)
@@ -2209,16 +1976,6 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 55.88) (xy 153.67 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a0adceb9-5141-499e-8568-a64ba7174376")
-	)
-	(wire
-		(pts
 			(xy 66.04 110.49) (xy 76.2 110.49)
 		)
 		(stroke
@@ -2229,7 +1986,7 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 25.4) (xy 152.4 25.4)
+			(xy 152.4 25.4) (xy 154.94 25.4)
 		)
 		(stroke
 			(width 0)
@@ -2259,33 +2016,13 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 46.99) (xy 152.4 46.99)
+			(xy 152.4 46.99) (xy 154.94 46.99)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "afaa6b7f-16ca-44a9-b5f8-699c32cff888")
-	)
-	(wire
-		(pts
-			(xy 153.67 41.91) (xy 153.67 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b270ec10-eb2c-4b8f-926a-ebb07a9967ae")
-	)
-	(wire
-		(pts
-			(xy 154.94 44.45) (xy 153.67 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b3360b61-75e3-409f-895b-62daffb03f9d")
 	)
 	(wire
 		(pts
@@ -2299,7 +2036,7 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 60.96) (xy 152.4 60.96)
+			(xy 152.4 60.96) (xy 154.94 60.96)
 		)
 		(stroke
 			(width 0)
@@ -2339,16 +2076,6 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 27.94) (xy 153.67 25.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cc1e44ad-1842-4543-9771-259777aee1df")
-	)
-	(wire
-		(pts
 			(xy 66.04 95.25) (xy 76.2 95.25)
 		)
 		(stroke
@@ -2369,7 +2096,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 41.91) (xy 185.42 41.91)
+			(xy 160.02 39.37) (xy 172.72 39.37)
 		)
 		(stroke
 			(width 0)
@@ -2429,7 +2156,7 @@
 	)
 	(global_label "ACT5"
 		(shape input)
-		(at 185.42 55.88 0)
+		(at 172.72 53.34 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2439,7 +2166,7 @@
 		)
 		(uuid "01377aee-ccc1-4623-9bbe-407fb69b2542")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 192.9409 55.88 0)
+			(at 180.2409 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2495,7 +2222,7 @@
 	)
 	(global_label "ACT6"
 		(shape input)
-		(at 185.42 58.42 0)
+		(at 172.72 60.96 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2505,7 +2232,7 @@
 		)
 		(uuid "22a0652b-55b6-44cc-9338-94306a8cfbdb")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 192.9409 58.42 0)
+			(at 180.2409 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2517,7 +2244,7 @@
 	)
 	(global_label "ACT4"
 		(shape input)
-		(at 185.42 44.45 0)
+		(at 172.72 46.99 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2527,7 +2254,7 @@
 		)
 		(uuid "244eb06d-1c34-467c-a3b1-1a14f105ccad")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 192.9409 44.45 0)
+			(at 180.2409 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2561,7 +2288,7 @@
 	)
 	(global_label "ACT2"
 		(shape input)
-		(at 185.42 30.48 0)
+		(at 172.72 33.02 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2571,7 +2298,7 @@
 		)
 		(uuid "62263f1d-ec79-4d61-86d2-b410a1cd0002")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 192.9409 30.48 0)
+			(at 180.2409 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2627,7 +2354,7 @@
 	)
 	(global_label "ACT1"
 		(shape input)
-		(at 185.42 27.94 0)
+		(at 172.72 25.4 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2637,7 +2364,7 @@
 		)
 		(uuid "9f7b18bc-7bc4-4727-adfc-d8256209295b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 192.9409 27.94 0)
+			(at 180.2409 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2671,7 +2398,7 @@
 	)
 	(global_label "ACT3"
 		(shape input)
-		(at 185.42 41.91 0)
+		(at 172.72 39.37 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2681,7 +2408,7 @@
 		)
 		(uuid "ddc98dd3-7434-47a5-ae72-960b6919fb25")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 192.9409 41.91 0)
+			(at 180.2409 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2717,7 +2444,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "local:LED0603-RD"
+		(property "Footprint" "Diode_SMD:D_0805_2012Metric"
 			(at 147.32 40.64 0)
 			(effects
 				(font
@@ -2726,7 +2453,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_Red-LED-0603_C2286.html"
+		(property "Datasheet" ""
 			(at 147.32 43.18 0)
 			(effects
 				(font
@@ -2744,7 +2471,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C2286"
+		(property "LCSC Part" "C2297"
 			(at 147.32 45.72 0)
 			(effects
 				(font
@@ -2753,7 +2480,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C2286"
+		(property "LCSC" "C2297"
 			(at 150.876 30.48 0)
 			(effects
 				(font
@@ -3222,42 +2949,33 @@
 		)
 	)
 	(symbol
-		(lib_id "local:YC162-FR-072K4L")
-		(at 163.83 58.42 270)
+		(lib_id "Device:R_Small")
+		(at 157.48 25.4 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "50d37a53-a20f-4ad0-ba3e-c62c8db43484")
-		(property "Reference" "U15"
-			(at 163.83 48.26 90)
+		(uuid "6ee6ee62-f217-4f9b-b6ce-41edf1c62369")
+		(property "Reference" "R25"
+			(at 157.48 20.32 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "YC162-FR-072K4L"
-			(at 163.83 50.8 90)
+		(property "Value" "4.7K"
+			(at 157.48 22.86 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "local:RES-ARRAY-SMD_0603-4P-L1.6-W1.6-BL"
-			(at 147.32 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 163.83 58.42 0)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 157.48 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3265,8 +2983,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 163.83 58.42 0)
+		(property "Datasheet" "~"
+			(at 157.48 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3274,8 +2992,8 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C728827"
-			(at 144.78 58.42 0)
+		(property "Description" "Resistor, small symbol"
+			(at 157.48 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3283,8 +3001,17 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C728827"
-			(at 163.83 48.26 0)
+		(property "LCSC" "C17673"
+			(at 157.48 25.4 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C17673"
+			(at 157.48 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3293,113 +3020,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "0e991a75-a625-43a8-a751-583d89a5e7ef")
-		)
-		(pin "3"
-			(uuid "bb7fb167-3f59-42fa-af01-81299471a0a3")
-		)
-		(pin "4"
-			(uuid "088a5320-9f0e-4332-8c12-1801596ac737")
+			(uuid "dfd0f6e3-1447-455d-8d93-96e1452af26e")
 		)
 		(pin "1"
-			(uuid "e0406817-8613-48da-a620-f83ba9a5e630")
+			(uuid "9f4108d0-7c2b-4308-847d-7909b596639d")
 		)
 		(instances
 			(project "tty2040"
 				(path "/abc27069-2ab3-4540-8984-2696f3591d8b"
-					(reference "U15")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "local:YC162-FR-072K4L")
-		(at 163.83 44.45 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5fd95de1-2cda-4fae-b46a-ad7d3eaa1a25")
-		(property "Reference" "U14"
-			(at 163.83 34.29 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "YC162-FR-072K4L"
-			(at 163.83 36.83 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "local:RES-ARRAY-SMD_0603-4P-L1.6-W1.6-BL"
-			(at 147.32 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 163.83 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 163.83 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" "C728827"
-			(at 144.78 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C728827"
-			(at 163.83 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "204c4336-de11-4be5-afae-f3666713ab91")
-		)
-		(pin "3"
-			(uuid "df32a7ba-706a-4388-a206-61c0c6b5037e")
-		)
-		(pin "4"
-			(uuid "bdeea030-bb6d-460c-8f47-9fde6e5e33d3")
-		)
-		(pin "1"
-			(uuid "eebba1b0-02fa-40ce-9c4e-99ba485c7305")
-		)
-		(instances
-			(project "tty2040"
-				(path "/abc27069-2ab3-4540-8984-2696f3591d8b"
-					(reference "U14")
+					(reference "R25")
 					(unit 1)
 				)
 			)
@@ -3495,7 +3124,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "local:LED0603-RD"
+		(property "Footprint" "Diode_SMD:D_0805_2012Metric"
 			(at 147.32 33.02 0)
 			(effects
 				(font
@@ -3504,7 +3133,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_Red-LED-0603_C2286.html"
+		(property "Datasheet" ""
 			(at 147.32 35.56 0)
 			(effects
 				(font
@@ -3522,7 +3151,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C2286"
+		(property "LCSC Part" "C2297"
 			(at 147.32 38.1 0)
 			(effects
 				(font
@@ -3531,7 +3160,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C2286"
+		(property "LCSC" "C2297"
 			(at 150.876 22.86 0)
 			(effects
 				(font
@@ -3581,7 +3210,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "local:LED0603-RD"
+		(property "Footprint" "Diode_SMD:D_0805_2012Metric"
 			(at 147.32 68.58 0)
 			(effects
 				(font
@@ -3590,7 +3219,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_Red-LED-0603_C2286.html"
+		(property "Datasheet" ""
 			(at 147.32 71.12 0)
 			(effects
 				(font
@@ -3608,7 +3237,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C2286"
+		(property "LCSC Part" "C2297"
 			(at 147.32 73.66 0)
 			(effects
 				(font
@@ -3617,7 +3246,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C2286"
+		(property "LCSC" "C2297"
 			(at 150.876 58.42 0)
 			(effects
 				(font
@@ -3636,6 +3265,92 @@
 			(project "tty2040"
 				(path "/abc27069-2ab3-4540-8984-2696f3591d8b"
 					(reference "LED6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 157.48 39.37 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8e4c1880-b5d1-4dbe-895a-2d8cfa8d05b0")
+		(property "Reference" "R27"
+			(at 157.48 34.29 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "4.7K"
+			(at 157.48 36.83 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 157.48 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 157.48 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 157.48 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C17673"
+			(at 157.48 39.37 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C17673"
+			(at 157.48 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "3c16deed-6d8a-4080-a667-71e822143283")
+		)
+		(pin "1"
+			(uuid "f2f481e6-e60a-48b9-828f-2107318a1d4f")
+		)
+		(instances
+			(project "tty2040"
+				(path "/abc27069-2ab3-4540-8984-2696f3591d8b"
+					(reference "R27")
 					(unit 1)
 				)
 			)
@@ -3667,7 +3382,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "local:LED0603-RD"
+		(property "Footprint" "Diode_SMD:D_0805_2012Metric"
 			(at 147.32 46.99 0)
 			(effects
 				(font
@@ -3676,7 +3391,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_Red-LED-0603_C2286.html"
+		(property "Datasheet" ""
 			(at 147.32 49.53 0)
 			(effects
 				(font
@@ -3694,7 +3409,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C2286"
+		(property "LCSC Part" "C2297"
 			(at 147.32 52.07 0)
 			(effects
 				(font
@@ -3703,7 +3418,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C2286"
+		(property "LCSC" "C2297"
 			(at 150.876 36.83 0)
 			(effects
 				(font
@@ -3792,6 +3507,92 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small")
+		(at 157.48 46.99 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "aa029fb7-2df0-4ca7-91e0-fc95c27d0b61")
+		(property "Reference" "R28"
+			(at 157.48 41.91 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "4.7K"
+			(at 157.48 44.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 157.48 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 157.48 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 157.48 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C17673"
+			(at 157.48 46.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C17673"
+			(at 157.48 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "dd243365-9b7f-40f1-8829-b8936d77b81e")
+		)
+		(pin "1"
+			(uuid "3560dc66-39fe-426f-8439-272029eef6b0")
+		)
+		(instances
+			(project "tty2040"
+				(path "/abc27069-2ab3-4540-8984-2696f3591d8b"
+					(reference "R28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "local:KT-0603R")
 		(at 147.32 53.34 0)
 		(unit 1)
@@ -3817,7 +3618,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "local:LED0603-RD"
+		(property "Footprint" "Diode_SMD:D_0805_2012Metric"
 			(at 147.32 60.96 0)
 			(effects
 				(font
@@ -3826,7 +3627,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_Red-LED-0603_C2286.html"
+		(property "Datasheet" ""
 			(at 147.32 63.5 0)
 			(effects
 				(font
@@ -3844,7 +3645,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C2286"
+		(property "LCSC Part" "C2297"
 			(at 147.32 66.04 0)
 			(effects
 				(font
@@ -3853,7 +3654,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C2286"
+		(property "LCSC" "C2297"
 			(at 150.876 50.8 0)
 			(effects
 				(font
@@ -3872,6 +3673,178 @@
 			(project "tty2040"
 				(path "/abc27069-2ab3-4540-8984-2696f3591d8b"
 					(reference "LED5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 157.48 53.34 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c04977af-30ef-4140-9c17-32611f4e47d5")
+		(property "Reference" "R29"
+			(at 157.48 48.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "4.7K"
+			(at 157.48 50.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 157.48 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 157.48 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 157.48 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C17673"
+			(at 157.48 53.34 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C17673"
+			(at 157.48 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "7bd2e78c-3827-4928-bc8e-65ccc4630275")
+		)
+		(pin "1"
+			(uuid "0fc28a60-93db-4abd-a44c-3f3dab8160fa")
+		)
+		(instances
+			(project "tty2040"
+				(path "/abc27069-2ab3-4540-8984-2696f3591d8b"
+					(reference "R29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 157.48 33.02 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c094abc8-46ef-44c8-a7d9-b15d35e189a8")
+		(property "Reference" "R26"
+			(at 157.48 27.94 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "4.7K"
+			(at 157.48 30.48 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 157.48 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 157.48 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 157.48 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C17673"
+			(at 157.48 33.02 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C17673"
+			(at 157.48 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4f24d7b9-6a25-4197-bc67-6d8efda7aee2")
+		)
+		(pin "1"
+			(uuid "dfc411e9-0bc5-4652-abd7-391e60941580")
+		)
+		(instances
+			(project "tty2040"
+				(path "/abc27069-2ab3-4540-8984-2696f3591d8b"
+					(reference "R26")
 					(unit 1)
 				)
 			)
@@ -3903,7 +3876,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "local:LED0603-RD"
+		(property "Footprint" "Diode_SMD:D_0805_2012Metric"
 			(at 147.32 54.61 0)
 			(effects
 				(font
@@ -3912,7 +3885,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_Red-LED-0603_C2286.html"
+		(property "Datasheet" ""
 			(at 147.32 57.15 0)
 			(effects
 				(font
@@ -3930,7 +3903,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C2286"
+		(property "LCSC Part" "C2297"
 			(at 147.32 59.69 0)
 			(effects
 				(font
@@ -3939,7 +3912,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C2286"
+		(property "LCSC" "C2297"
 			(at 150.876 44.45 0)
 			(effects
 				(font
@@ -3958,6 +3931,92 @@
 			(project "tty2040"
 				(path "/abc27069-2ab3-4540-8984-2696f3591d8b"
 					(reference "LED4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 157.48 60.96 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c50d4f97-f844-4ed2-a934-e93509c3cc50")
+		(property "Reference" "R30"
+			(at 157.48 55.88 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "4.7K"
+			(at 157.48 58.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 157.48 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 157.48 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 157.48 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C17673"
+			(at 157.48 60.96 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C17673"
+			(at 157.48 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "48b49a86-24f5-4926-9318-8562a7b81988")
+		)
+		(pin "1"
+			(uuid "c6251d7a-f5cd-4aa9-898d-3f89fe842065")
+		)
+		(instances
+			(project "tty2040"
+				(path "/abc27069-2ab3-4540-8984-2696f3591d8b"
+					(reference "R30")
 					(unit 1)
 				)
 			)
@@ -4152,98 +4211,6 @@
 			(project "tty2040"
 				(path "/abc27069-2ab3-4540-8984-2696f3591d8b"
 					(reference "H1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "local:YC162-FR-072K4L")
-		(at 163.83 30.48 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f80b392b-af8d-45a0-a61a-b1d3ef6b4080")
-		(property "Reference" "U13"
-			(at 163.83 20.32 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "YC162-FR-072K4L"
-			(at 163.83 22.86 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "local:RES-ARRAY-SMD_0603-4P-L1.6-W1.6-BL"
-			(at 147.32 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 163.83 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 163.83 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" "C728827"
-			(at 144.78 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C728827"
-			(at 163.83 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "7e6a03d5-ef6f-44ec-9a83-9ca45d0d956b")
-		)
-		(pin "3"
-			(uuid "e01c65b3-5999-4bd9-9882-2d546f69ec17")
-		)
-		(pin "4"
-			(uuid "7df2119b-b2b8-4a38-967d-b423fde15837")
-		)
-		(pin "1"
-			(uuid "2114a92f-ad33-41ee-9559-58fec59b0bfa")
-		)
-		(instances
-			(project "tty2040"
-				(path "/abc27069-2ab3-4540-8984-2696f3591d8b"
-					(reference "U13")
 					(unit 1)
 				)
 			)
