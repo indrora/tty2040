@@ -1,4 +1,5 @@
 **backups/**
 **.kicad_*_old
 *.lck
-#**#
+
+**/Thumbs.db
