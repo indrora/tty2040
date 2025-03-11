@@ -5,6 +5,175 @@
 	(uuid "abc27069-2ab3-4540-8984-2696f3591d8b")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Device:LED"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "LED"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Light emitting diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "LED diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LED_0_1"
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "LED_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Device:R_Small"
 			(pin_numbers hide)
 			(pin_names
@@ -1300,173 +1469,6 @@
 				)
 			)
 		)
-		(symbol "local:KT-0603R"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "LED"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "KT-0603R"
-				(at 0 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "local:LED0603-RD"
-				(at 0 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_Red-LED-0603_C2286.html"
-				(at 0 -10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "LCSC Part" "C2286"
-				(at 0 -12.7 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "KT-0603R_0_1"
-				(polyline
-					(pts
-						(xy -2.03 1.52) (xy -3.81 3.3)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 2.03) (xy -1.27 -2.03)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.02 2.54) (xy -2.79 4.32)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.81 3.3) (xy -2.79 2.79) (xy -3.3 2.29) (xy -3.81 3.3)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.79 4.32) (xy -1.78 3.81) (xy -2.29 3.3) (xy -2.79 4.32)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -1.52) (xy -1.27 0) (xy 1.27 1.78) (xy 1.27 -1.52)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin unspecified line
-					(at -5.08 0 0)
-					(length 3.81)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 5.08 0 180)
-					(length 3.81)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers hide)
@@ -1736,7 +1738,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 33.02) (xy 142.24 33.02)
+			(xy 138.43 33.02) (xy 143.51 33.02)
 		)
 		(stroke
 			(width 0)
@@ -1756,16 +1758,6 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 39.37) (xy 154.94 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1381d54a-2c2a-4a43-a9b5-6630cce4b541")
-	)
-	(wire
-		(pts
 			(xy 138.43 53.34) (xy 138.43 60.96)
 		)
 		(stroke
@@ -1773,6 +1765,16 @@
 			(type default)
 		)
 		(uuid "17ce8cef-7d4a-4a3f-ab63-8ffb7a295746")
+	)
+	(wire
+		(pts
+			(xy 151.13 25.4) (xy 154.94 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a13a49d-c964-42a4-b09f-e67d5c637976")
 	)
 	(wire
 		(pts
@@ -1796,6 +1798,16 @@
 	)
 	(wire
 		(pts
+			(xy 151.13 46.99) (xy 154.94 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45617560-d616-46cd-a63e-12bdd1c7f844")
+	)
+	(wire
+		(pts
 			(xy 160.02 33.02) (xy 172.72 33.02)
 		)
 		(stroke
@@ -1803,6 +1815,16 @@
 			(type default)
 		)
 		(uuid "46bc40b5-f28c-493f-a320-05929880609c")
+	)
+	(wire
+		(pts
+			(xy 151.13 60.96) (xy 154.94 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "50717142-0349-44a2-8273-23b06de422e1")
 	)
 	(wire
 		(pts
@@ -1826,6 +1848,16 @@
 	)
 	(wire
 		(pts
+			(xy 151.13 53.34) (xy 154.94 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d252373-e871-4db8-b0ff-d7a380cffb40")
+	)
+	(wire
+		(pts
 			(xy 138.43 39.37) (xy 138.43 46.99)
 		)
 		(stroke
@@ -1846,7 +1878,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 46.99) (xy 142.24 46.99)
+			(xy 138.43 46.99) (xy 143.51 46.99)
 		)
 		(stroke
 			(width 0)
@@ -1886,23 +1918,13 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 53.34) (xy 142.24 53.34)
+			(xy 138.43 53.34) (xy 143.51 53.34)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "8593fdd8-cc92-443b-b091-5e1e4b17c68b")
-	)
-	(wire
-		(pts
-			(xy 152.4 53.34) (xy 154.94 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "872656ff-8406-4dcb-a7ae-95f6145d6f13")
 	)
 	(wire
 		(pts
@@ -1913,16 +1935,6 @@
 			(type default)
 		)
 		(uuid "87f10ca7-1dbb-4d0e-abcb-e18a66bd0033")
-	)
-	(wire
-		(pts
-			(xy 152.4 33.02) (xy 154.94 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "89bc5ce5-fbca-470d-a540-3372e2692c9c")
 	)
 	(wire
 		(pts
@@ -1976,6 +1988,16 @@
 	)
 	(wire
 		(pts
+			(xy 151.13 39.37) (xy 154.94 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a19f4e70-9820-4a0e-847f-02ccf5d0b801")
+	)
+	(wire
+		(pts
 			(xy 66.04 110.49) (xy 76.2 110.49)
 		)
 		(stroke
@@ -1983,16 +2005,6 @@
 			(type default)
 		)
 		(uuid "a767c49b-c113-4d0c-ad29-edd5c62862b6")
-	)
-	(wire
-		(pts
-			(xy 152.4 25.4) (xy 154.94 25.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "aa6b23fd-5e9f-4495-b537-7b8f1c8ca9a2")
 	)
 	(wire
 		(pts
@@ -2006,23 +2018,13 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 39.37) (xy 142.24 39.37)
+			(xy 138.43 39.37) (xy 143.51 39.37)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "ad044880-88c7-4787-a515-630d818672fc")
-	)
-	(wire
-		(pts
-			(xy 152.4 46.99) (xy 154.94 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "afaa6b7f-16ca-44a9-b5f8-699c32cff888")
 	)
 	(wire
 		(pts
@@ -2033,16 +2035,6 @@
 			(type default)
 		)
 		(uuid "b4825f08-6538-4ccd-b4bd-2294410de3ad")
-	)
-	(wire
-		(pts
-			(xy 152.4 60.96) (xy 154.94 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b6ce8078-bd06-4df0-9b87-7bd08116e4ea")
 	)
 	(wire
 		(pts
@@ -2086,7 +2078,17 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 25.4) (xy 138.43 25.4)
+			(xy 151.13 33.02) (xy 154.94 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d97798ff-4d1d-4b8d-8ec9-a6a82736cc0f")
+	)
+	(wire
+		(pts
+			(xy 138.43 25.4) (xy 143.51 25.4)
 		)
 		(stroke
 			(width 0)
@@ -2116,7 +2118,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 60.96) (xy 142.24 60.96)
+			(xy 138.43 60.96) (xy 143.51 60.96)
 		)
 		(stroke
 			(width 0)
@@ -2419,7 +2421,7 @@
 		)
 	)
 	(symbol
-		(lib_id "local:KT-0603R")
+		(lib_id "Device:LED")
 		(at 147.32 33.02 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2444,8 +2446,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_0805_2012Metric"
-			(at 147.32 40.64 0)
+		(property "Footprint" "LED_THT:LED_D3.0mm"
+			(at 147.32 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2453,8 +2455,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 147.32 43.18 0)
+		(property "Datasheet" "~"
+			(at 147.32 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2462,7 +2464,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Light emitting diode"
 			(at 147.32 33.02 0)
 			(effects
 				(font
@@ -2792,7 +2794,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Module_RaspberryPi_Pico:RaspberryPi_Pico_Original_SMD_HandSolder"
+		(property "Footprint" "Module_RaspberryPi_Pico:RaspberryPi_Pico_Common"
 			(at 99.06 149.86 0)
 			(effects
 				(font
@@ -2974,7 +2976,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
 			(at 157.48 25.4 0)
 			(effects
 				(font
@@ -3099,7 +3101,7 @@
 		)
 	)
 	(symbol
-		(lib_id "local:KT-0603R")
+		(lib_id "Device:LED")
 		(at 147.32 25.4 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3124,25 +3126,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_0805_2012Metric"
-			(at 147.32 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 147.32 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
+		(property "Footprint" "LED_THT:LED_D3.0mm"
 			(at 147.32 25.4 0)
 			(effects
 				(font
@@ -3151,8 +3135,8 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C2297"
-			(at 147.32 38.1 0)
+		(property "Datasheet" "~"
+			(at 147.32 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3160,8 +3144,8 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C2297"
-			(at 150.876 22.86 0)
+		(property "Description" "Light emitting diode"
+			(at 147.32 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3185,7 +3169,7 @@
 		)
 	)
 	(symbol
-		(lib_id "local:KT-0603R")
+		(lib_id "Device:LED")
 		(at 147.32 60.96 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3210,8 +3194,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_0805_2012Metric"
-			(at 147.32 68.58 0)
+		(property "Footprint" "LED_THT:LED_D3.0mm"
+			(at 147.32 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3219,8 +3203,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 147.32 71.12 0)
+		(property "Datasheet" "~"
+			(at 147.32 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3228,7 +3212,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Light emitting diode"
 			(at 147.32 60.96 0)
 			(effects
 				(font
@@ -3296,7 +3280,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
 			(at 157.48 39.37 0)
 			(effects
 				(font
@@ -3357,7 +3341,7 @@
 		)
 	)
 	(symbol
-		(lib_id "local:KT-0603R")
+		(lib_id "Device:LED")
 		(at 147.32 39.37 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3382,8 +3366,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_0805_2012Metric"
-			(at 147.32 46.99 0)
+		(property "Footprint" "LED_THT:LED_D3.0mm"
+			(at 147.32 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3391,8 +3375,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 147.32 49.53 0)
+		(property "Datasheet" "~"
+			(at 147.32 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3400,7 +3384,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Light emitting diode"
 			(at 147.32 39.37 0)
 			(effects
 				(font
@@ -3532,7 +3516,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
 			(at 157.48 46.99 0)
 			(effects
 				(font
@@ -3593,7 +3577,7 @@
 		)
 	)
 	(symbol
-		(lib_id "local:KT-0603R")
+		(lib_id "Device:LED")
 		(at 147.32 53.34 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3618,8 +3602,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_0805_2012Metric"
-			(at 147.32 60.96 0)
+		(property "Footprint" "LED_THT:LED_D3.0mm"
+			(at 147.32 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3627,8 +3611,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 147.32 63.5 0)
+		(property "Datasheet" "~"
+			(at 147.32 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3636,7 +3620,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Light emitting diode"
 			(at 147.32 53.34 0)
 			(effects
 				(font
@@ -3704,7 +3688,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
 			(at 157.48 53.34 0)
 			(effects
 				(font
@@ -3790,7 +3774,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
 			(at 157.48 33.02 0)
 			(effects
 				(font
@@ -3851,7 +3835,7 @@
 		)
 	)
 	(symbol
-		(lib_id "local:KT-0603R")
+		(lib_id "Device:LED")
 		(at 147.32 46.99 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3876,8 +3860,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_0805_2012Metric"
-			(at 147.32 54.61 0)
+		(property "Footprint" "LED_THT:LED_D3.0mm"
+			(at 147.32 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3885,8 +3869,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 147.32 57.15 0)
+		(property "Datasheet" "~"
+			(at 147.32 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3894,7 +3878,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Light emitting diode"
 			(at 147.32 46.99 0)
 			(effects
 				(font
@@ -3962,7 +3946,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
 			(at 157.48 60.96 0)
 			(effects
 				(font

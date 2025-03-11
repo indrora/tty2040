@@ -314,6 +314,555 @@
 				)
 			)
 		)
+		(symbol "Diode_Bridge:DF04M"
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 2.54 6.985 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "DF04M"
+				(at 2.54 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Diode_THT:Diode_Bridge_DIP-4_W7.62mm_P5.08mm"
+				(at 3.81 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.vishay.com/docs/88571/dfm.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Miniature Glass Passivated Single-Phase Bridge Rectifiers, 280V Vrms, 1.0A If, DIP-4"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "rectifier acdc"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Diode*Bridge*DIP*W7.62mm*P5.08mm*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "DF04M_0_1"
+				(polyline
+					(pts
+						(xy -2.54 3.81) (xy -1.27 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -2.54) (xy -2.54 -3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -1.27) (xy 3.81 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.27) (xy 3.81 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 2.54) (xy -2.54 1.27) (xy -1.905 3.175) (xy -3.81 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -1.27) (xy -3.81 -2.54) (xy -1.905 -3.175) (xy -2.54 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 2.54) (xy 2.54 3.81) (xy 3.175 1.905) (xy 1.27 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.175 -1.905) (xy 1.27 -2.54) (xy 2.54 -3.81) (xy 3.175 -1.905)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 0) (xy 0 -5.08) (xy 5.08 0) (xy 0 5.08) (xy -5.08 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "DF04M_1_1"
+				(pin passive line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 7.62 270)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "PCM_Diode_TVS_AKL:D_TVS_Bidirectional_Generic"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "D_TVS_Bidirectional_Generic"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Bidirectional TVS Diode, Generic symbol, Alternate KiCAD Library"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "diode TVS bidirectional generic"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "D_TVS_Bidirectional_Generic_0_1"
+				(polyline
+					(pts
+						(xy 0 -1.27) (xy -0.508 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy 0.508 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy -2.54 1.27) (xy -2.54 -1.27) (xy 0 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.27) (xy 2.54 -1.27) (xy 0 0) (xy 2.54 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "D_TVS_Bidirectional_Generic_0_2"
+				(polyline
+					(pts
+						(xy -3.81 -3.81) (xy 3.81 3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.889 0.889) (xy -1.27 0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.889 0.889) (xy 0.889 -0.889)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.889 -0.889) (xy 1.27 -0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -1.778) (xy -2.667 -0.889) (xy 0 0) (xy -0.889 -2.667) (xy -1.778 -1.778)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.778 1.778) (xy 2.667 0.889) (xy 0 0) (xy 0.889 2.667) (xy 1.778 1.778)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "D_TVS_Bidirectional_Generic_1_1"
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "D_TVS_Bidirectional_Generic_1_2"
+				(pin passive line
+					(at 3.81 3.81 180)
+					(length 0)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -3.81 -3.81 0)
+					(length 0)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "local:6N139SDM"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1733,314 +2282,6 @@
 				)
 			)
 		)
-		(symbol "local:MB10FH5G0NP"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 0 6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "MB10FH5G0NP"
-				(at 0 -6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "local:MBF_L4.8-W3.9-P2.50-LS6.7-TR"
-				(at 0 -8.89 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://lcsc.com/product-detail/Others_Guangdong-Hottech-MB10F0-8A-46MIL_C193012.html"
-				(at 0 -11.43 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "LCSC Part" "C193012"
-				(at 0 -13.97 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "MB10FH5G0NP_0_1"
-				(rectangle
-					(start -3.81 3.81)
-					(end 3.81 -3.81)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(circle
-					(center -2.54 2.54)
-					(radius 0.38)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin unspecified line
-					(at -6.35 1.27 0)
-					(length 2.54)
-					(name "+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 6.35 1.27 180)
-					(length 2.54)
-					(name "AC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -6.35 -1.27 0)
-					(length 2.54)
-					(name "-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 6.35 -1.27 180)
-					(length 2.54)
-					(name "AC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "local:SMF150CA_C519810"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "SMF150CA_C519810"
-				(at 0 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "local:SMF_L2.9-W1.9-LS3.9-BI"
-				(at 0 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://lcsc.com/product-detail/TVS_PTTC-Polytronics-Tech-SMF150CA_C519810.html"
-				(at 0 -10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "LCSC Part" "C519810"
-				(at 0 -12.7 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "SMF150CA_C519810_0_1"
-				(polyline
-					(pts
-						(xy 0 1.52) (xy -0.76 2.29)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 1.52) (xy 0 -1.52)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.76 -2.29) (xy 0 -1.52)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 1.27) (xy 0 0) (xy -2.54 -1.27) (xy -2.54 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 1.27) (xy 0 0) (xy 2.54 -1.27) (xy 2.54 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin unspecified line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers hide)
@@ -2295,16 +2536,16 @@
 		(uuid "60931409-a2a3-41aa-b2f1-ccffba7f3007")
 	)
 	(junction
-		(at 106.68 92.71)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a434bdd6-fa33-4de5-b3a5-8bdfaeb5a293")
-	)
-	(junction
 		(at 172.72 95.25)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "aacfa9b7-2c7f-4ce2-ab85-7354288b2337")
+	)
+	(junction
+		(at 106.68 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c0b4e453-5a89-49c4-9091-4677a72ae623")
 	)
 	(wire
 		(pts
@@ -2318,23 +2559,13 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 82.55) (xy 113.03 82.55)
+			(xy 106.68 77.47) (xy 120.65 77.47)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "0fe51e6b-f906-4720-9260-408c2bc0c3bb")
-	)
-	(wire
-		(pts
-			(xy 128.27 90.17) (xy 130.81 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "11fddca2-2df2-4d92-aed7-13698337d0de")
 	)
 	(wire
 		(pts
@@ -2358,6 +2589,56 @@
 	)
 	(wire
 		(pts
+			(xy 113.03 74.93) (xy 113.03 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "177f0f66-a1ae-410d-a6f4-be885a489303")
+	)
+	(wire
+		(pts
+			(xy 106.68 88.9) (xy 106.68 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19ad0650-47ea-4799-b5a9-6c035f2ae4e0")
+	)
+	(wire
+		(pts
+			(xy 120.65 77.47) (xy 120.65 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2444949f-55cb-4ab7-ad71-932a3b658b31")
+	)
+	(wire
+		(pts
+			(xy 135.89 82.55) (xy 135.89 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "261ff4f1-1bbc-48d4-b28e-a1b81fb246c5")
+	)
+	(wire
+		(pts
+			(xy 129.54 74.93) (xy 129.54 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2bfab664-4396-433e-95dc-8c4a7113d356")
+	)
+	(wire
+		(pts
 			(xy 106.68 102.87) (xy 106.68 97.79)
 		)
 		(stroke
@@ -2368,17 +2649,17 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 92.71) (xy 106.68 88.9)
+			(xy 135.89 90.17) (xy 137.16 90.17)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3365c35f-f974-4ccc-bcd9-f324ee26ebbf")
+		(uuid "31926079-efa0-4802-b828-1dc77e46fdaf")
 	)
 	(wire
 		(pts
-			(xy 132.08 92.71) (xy 132.08 95.25)
+			(xy 132.08 86.36) (xy 132.08 95.25)
 		)
 		(stroke
 			(width 0)
@@ -2398,7 +2679,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 92.71) (xy 115.57 92.71)
+			(xy 106.68 95.25) (xy 120.65 95.25)
 		)
 		(stroke
 			(width 0)
@@ -2458,7 +2739,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 92.71) (xy 106.68 92.71)
+			(xy 101.6 95.25) (xy 106.68 95.25)
 		)
 		(stroke
 			(width 0)
@@ -2468,23 +2749,23 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 82.55) (xy 113.03 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8935c3de-bc2d-43ce-87d9-e8fef8bd88a9")
-	)
-	(wire
-		(pts
-			(xy 101.6 85.09) (xy 101.6 92.71)
+			(xy 101.6 85.09) (xy 101.6 95.25)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "8c0bd3e6-f12e-475b-bdf2-1bd2696d6a4f")
+	)
+	(wire
+		(pts
+			(xy 128.27 86.36) (xy 132.08 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c75d326-484e-40ca-bd40-226016099d85")
 	)
 	(wire
 		(pts
@@ -2495,6 +2776,16 @@
 			(type default)
 		)
 		(uuid "8cde8d8d-cdf2-4875-bc41-d8ada81ad877")
+	)
+	(wire
+		(pts
+			(xy 113.03 74.93) (xy 129.54 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "90a9fb70-9f7b-42ee-a81a-51e40df3ff5a")
 	)
 	(wire
 		(pts
@@ -2538,7 +2829,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 90.17) (xy 137.16 90.17)
+			(xy 134.62 82.55) (xy 135.89 82.55)
 		)
 		(stroke
 			(width 0)
@@ -2558,13 +2849,13 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 92.71) (xy 132.08 92.71)
+			(xy 120.65 95.25) (xy 120.65 93.98)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "be8356f1-0602-4871-aba8-13bf40149744")
+		(uuid "bec191b5-722a-4433-b0f6-6195b43230b6")
 	)
 	(wire
 		(pts
@@ -2595,16 +2886,6 @@
 			(type default)
 		)
 		(uuid "d069630b-3682-41df-b9ba-b42aa39cb369")
-	)
-	(wire
-		(pts
-			(xy 113.03 90.17) (xy 115.57 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d1b9d5be-6860-4215-a3ef-0a17ccb402c3")
 	)
 	(wire
 		(pts
@@ -2678,6 +2959,16 @@
 	)
 	(wire
 		(pts
+			(xy 106.68 77.47) (xy 106.68 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "debed515-ef7f-4afc-b9d4-ca342fae1832")
+	)
+	(wire
+		(pts
 			(xy 134.62 128.27) (xy 134.62 130.81)
 		)
 		(stroke
@@ -2743,7 +3034,7 @@
 	(netclass_flag ""
 		(length 2.54)
 		(shape round)
-		(at 109.22 92.71 180)
+		(at 109.22 95.25 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2753,7 +3044,7 @@
 		)
 		(uuid "c13471ce-465c-42f0-ab99-13991f4e167d")
 		(property "Netclass" "LoopHV"
-			(at 109.9185 95.25 0)
+			(at 109.9185 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2789,7 +3080,7 @@
 	(netclass_flag ""
 		(length 2.54)
 		(shape round)
-		(at 110.49 82.55 0)
+		(at 110.49 77.47 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2799,7 +3090,7 @@
 		)
 		(uuid "cc914d14-a51a-424f-ad4f-c16146dcf1eb")
 		(property "Netclass" "LoopHV"
-			(at 111.1885 80.01 0)
+			(at 111.1885 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2860,7 +3151,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
 			(at 172.72 90.17 0)
 			(effects
 				(font
@@ -3113,8 +3404,8 @@
 		)
 	)
 	(symbol
-		(lib_id "local:MB10FH5G0NP")
-		(at 121.92 91.44 0)
+		(lib_id "Diode_Bridge:DF04M")
+		(at 120.65 86.36 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3123,23 +3414,33 @@
 		(dnp no)
 		(uuid "409e763e-13f6-482c-8174-d2d24817ec63")
 		(property "Reference" "D1"
-			(at 121.92 84.582 0)
+			(at 120.65 79.502 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "MB10S-50MIL"
-			(at 121.92 86.614 0)
+		(property "Value" "DF04MA"
+			(at 120.65 81.534 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "local:MBF_L4.8-W3.9-P2.50-LS6.7-TR"
-			(at 121.92 100.33 0)
+		(property "Footprint" "Diode_THT:Diode_Bridge_DIP-4_W7.62mm_P5.08mm"
+			(at 116.84 83.185 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/88571/dfm.pdf"
+			(at 120.65 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3147,8 +3448,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Others_Guangdong-Hottech-MB10F0-8A-46MIL_C193012.html"
-			(at 121.92 102.87 0)
+		(property "Description" "Miniature Glass Passivated Single-Phase Bridge Rectifiers, 280V Vrms, 1.0A If, DIP-4"
+			(at 120.65 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3156,8 +3457,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Miniature Glass Passivated Single-Phase Surface Mount Bridge Rectifiers, 140V Vrms, 0.8A If, ABS SMD package"
-			(at 121.92 91.44 0)
+		(property "Mouser" "625-DF04MA-E3 "
+			(at 120.65 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3165,17 +3466,8 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C2488"
-			(at 121.92 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C2488"
-			(at 121.92 84.582 0)
+		(property "LCSC Part" "C193012"
+			(at 120.65 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3251,7 +3543,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_2512_6332Metric"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal"
 			(at 106.68 86.36 0)
 			(effects
 				(font
@@ -3439,7 +3731,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 133.35 90.17 90)
+		(at 132.08 82.55 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3448,7 +3740,7 @@
 		(fields_autoplaced yes)
 		(uuid "69b770bb-8daf-45d1-b74a-327e4570df1f")
 		(property "Reference" "R2"
-			(at 133.35 85.09 90)
+			(at 132.08 77.47 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3456,15 +3748,15 @@
 			)
 		)
 		(property "Value" "470"
-			(at 133.35 87.63 90)
+			(at 132.08 80.01 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 133.35 90.17 0)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
+			(at 132.08 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3473,7 +3765,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 133.35 90.17 0)
+			(at 132.08 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3482,7 +3774,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 133.35 90.17 0)
+			(at 132.08 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3491,7 +3783,7 @@
 			)
 		)
 		(property "LCSC" "C17710"
-			(at 133.35 90.17 90)
+			(at 132.08 82.55 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3500,7 +3792,7 @@
 			)
 		)
 		(property "LCSC Part" "C17710"
-			(at 133.35 90.17 0)
+			(at 132.08 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3561,7 +3853,7 @@
 				)
 			)
 		)
-		(property "Value" "6N139SDM"
+		(property "Value" "6N139M"
 			(at 152.4 80.01 0)
 			(effects
 				(font
@@ -3569,7 +3861,7 @@
 				)
 			)
 		)
-		(property "Footprint" "local:OPTO-SMD-8P_L9.6-W6.5-P2.54-LS10.0-BL"
+		(property "Footprint" "Package_DIP:DIP-8_W10.16mm"
 			(at 152.4 110.49 0)
 			(effects
 				(font
@@ -3578,7 +3870,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://lcsc.com/product-detail/SMD-Optocouplers_FAIRCHILD_6N139SDM_6N139SDM_C42186.html"
+		(property "Datasheet" "https://www.onsemi.com/download/data-sheet/pdf/hcpl2731m-d.pdf"
 			(at 152.4 113.03 0)
 			(effects
 				(font
@@ -3596,17 +3888,8 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C42186"
-			(at 152.4 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C42186"
-			(at 152.4 77.47 0)
+		(property "Mouser" "512-6N139M"
+			(at 152.4 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3790,7 +4073,7 @@
 				)
 			)
 		)
-		(property "Value" "GAQY211G2S"
+		(property "Value" "AQY210EH"
 			(at 152.4 110.49 0)
 			(effects
 				(font
@@ -3798,7 +4081,7 @@
 				)
 			)
 		)
-		(property "Footprint" "local:SOP-4_L4.4-W4.0-P2.54-LS7.0-TL"
+		(property "Footprint" "Package_DIP:DIP-4_W7.62mm"
 			(at 153.67 107.95 0)
 			(effects
 				(font
@@ -3807,7 +4090,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://industry.panasonic.com/global/en/downloads/?file_cd=300992&tab=catalog&series_cd=1902"
 			(at 153.67 123.19 0)
 			(effects
 				(font
@@ -3825,17 +4108,8 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C7435104"
-			(at 153.67 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C7435104"
-			(at 152.4 107.95 0)
+		(property "Mouser" "769-AQY210EH"
+			(at 153.67 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3885,7 +4159,7 @@
 		)
 	)
 	(symbol
-		(lib_id "local:SMF150CA_C519810")
+		(lib_id "PCM_Diode_TVS_AKL:D_TVS_Bidirectional_Generic")
 		(at 134.62 123.19 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3895,7 +4169,7 @@
 		(fields_autoplaced yes)
 		(uuid "924d065c-f601-4cad-8b0a-ce1f9c07f607")
 		(property "Reference" "D2"
-			(at 138.43 121.9199 90)
+			(at 137.16 121.9199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3903,8 +4177,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "SMF150CA_C519810"
-			(at 138.43 124.4599 90)
+		(property "Value" "1.5KE180CAHE3_B/C"
+			(at 137.16 124.4599 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3912,8 +4186,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "local:SMF_L2.9-W1.9-LS3.9-BI"
-			(at 127 123.19 0)
+		(property "Footprint" "Diode_THT:D_A-405_P10.16mm_Horizontal"
+			(at 134.62 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3921,8 +4195,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://lcsc.com/product-detail/TVS_PTTC-Polytronics-Tech-SMF150CA_C519810.html"
-			(at 124.46 123.19 0)
+		(property "Datasheet" "~"
+			(at 134.62 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3930,7 +4204,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Bidirectional TVS Diode, Generic symbol, Alternate KiCAD Library"
 			(at 134.62 123.19 0)
 			(effects
 				(font
@@ -4011,7 +4285,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "local:SW-SMD_DSIC01LSGET"
+		(property "Footprint" "Button_Switch_THT:SW_DIP_SPSTx01_Slide_6.7x4.1mm_W7.62mm_P2.54mm_LowProfile"
 			(at 114.3 110.49 0)
 			(effects
 				(font
@@ -4020,7 +4294,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://lcsc.com/product-detail/DIP-Switches_2-54mm-1-DIP-switch_C54948.html"
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/1628/ds04_254-3510142.pdf"
 			(at 116.84 110.49 0)
 			(effects
 				(font
@@ -4038,17 +4312,8 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C54948"
-			(at 119.38 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C54948"
-			(at 110.49 109.2199 0)
+		(property "Mouser" "490-DS04-254-1S-01BK "
+			(at 106.68 110.49 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4117,7 +4382,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
 			(at 170.18 130.81 0)
 			(effects
 				(font
